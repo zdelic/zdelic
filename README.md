@@ -70,9 +70,9 @@ A business application for creating structured renovation calculations and profe
 
 ---
 
-## 📅 Construction Process Management CRM
+## 📅 Gerstl-Projekt App
 
-**Project Timeline & Workflow Management System**
+**Construction Process Management & Project Timeline System**
 
 A full-stack construction process-management platform for structuring projects, reusable process models, trades, activities, tasks, progress tracking and interactive project timelines.
 
