@@ -108,16 +108,4 @@ I designed the data model, implemented the backend logic, built the application 
 
 ---
 
-## Screenshots
-
-Recommended public screenshots:
-
-1. project budget overview
-2. planned vs. actual costs
-3. account / sub-account structure
-4. cost-entry workflow
-5. reporting / controlling view
-
----
-
 > Real project financial data and production source code remain private. This case study documents the functionality and engineering scope only.
