@@ -159,18 +159,37 @@ I was responsible for planning the architecture, implementing the database and A
 
 ## Screenshots
 
-Screenshots and a short demo can be added here without exposing real worker data or internal infrastructure.
+The screenshots below use demo/anonymized data. Company branding, internal addresses, device identifiers and other infrastructure details have been obscured where appropriate.
 
-Recommended screenshots:
+### Dashboard
 
-1. dashboard
-2. projects
-3. worker management
-4. terminal management
-5. attendance protocol
-6. fingerprint enrollment
-7. Android kiosk terminal
-8. PDF / reporting view
+![GERSTL Entry Dashboard](../assets/gerstl-entry/dashboard.webp)
+
+Central overview of projects, terminals, companies, workers, open shifts and recent attendance activity.
+
+### Project Management
+
+![GERSTL Entry Projects](../assets/gerstl-entry/projects.webp)
+
+Project-oriented administration with working-time models, assigned companies, terminals and responsible project/site managers.
+
+### Worker Management
+
+![GERSTL Entry Worker Management](../assets/gerstl-entry/workers.webp)
+
+Worker registration including company assignment, worker type, individual working-time settings, NFC card enrollment and optional fingerprint registration.
+
+### Terminal Management
+
+![GERSTL Entry Terminal Management](../assets/gerstl-entry/terminals.webp)
+
+Management of NFC and fingerprint Android terminals with project assignment, connectivity status and scanner information.
+
+### Attendance Protocol
+
+![GERSTL Entry Attendance Protocol](../assets/gerstl-entry/protocol.webp)
+
+Attendance protocol with filters, manual entries, live updates, CSV export and calculated working-time categories.
 
 ---
 
