@@ -27,6 +27,8 @@ I implemented the full-stack application architecture, including:
 - task creation and linking
 - project timeline / Gantt data
 - user authentication and role-based access
+- planned-vs-actual progress tracking
+- project statistics and status monitoring
 
 ---
 
@@ -34,26 +36,40 @@ I implemented the full-stack application architecture, including:
 
 ### Project Structure
 - project creation and retrieval
-- project-specific structure data
-- user-authenticated access
+- hierarchical building structure
+- project-specific process-model assignment
+- planned start-date handling
+- reusable structures across projects
 
 ### Process Models
 - reusable process templates
-- activity assignment
+- activity assignment by trade
+- duration planning
+- sequential and parallel activities
 - copying and updating process models
 
 ### Trades & Activities
-- trade management
+- centralized trade management
+- color-coded trades
 - activity management
 - bulk activity saving
 - replace-all workflows
 
 ### Tasks & Timeline
 - project-linked tasks
-- task dependencies
-- task links
-- project timeline data
+- task dependencies and links
+- structure-based timeline view
+- status visualization
+- planned and actual dates
+- delayed-task indicators
 - Gantt-compatible data endpoints
+
+### Monitoring & Reporting
+- task statistics by trade
+- completion-status charts
+- planned-vs-actual progress curve
+- activity overview with filtering
+- CSV export
 
 ### Authentication & Roles
 - Laravel Sanctum authentication
@@ -90,14 +106,61 @@ Database
 - **Authentication:** Laravel Sanctum
 - **API:** REST / JSON
 - **Planning:** timeline and Gantt-compatible task data
+- **Reporting:** charts, filters and CSV export
+
+---
+
+## Screenshots
+
+### Project Statistics
+
+Project-level monitoring with total task counts, completion status and breakdown by construction trade.
+
+![Project statistics](../assets/gerstl-management/gerstl-management-project-statistics.jpg)
+
+### Project Structure
+
+Hierarchical project setup with building sections, stairs, floors, units and reusable process-model assignments.
+
+![Project structure](../assets/gerstl-management/gerstl-management-project-structure.jpg)
+
+### Planned vs. Actual Progress
+
+A cumulative planned-vs-actual progress curve for tracking schedule performance over time.
+
+![Planned vs actual progress](../assets/gerstl-management/gerstl-management-planned-actual.jpg)
+
+### Process Model Editor
+
+Reusable construction process templates combine trades, activities, durations and sequencing rules.
+
+![Process model editor](../assets/gerstl-management/gerstl-management-process-model.jpg)
+
+### Trades & Activities
+
+Central administration of construction trades and their related activities, including color coding and editing workflows.
+
+![Trades and activities](../assets/gerstl-management/gerstl-management-trades-activities.jpg)
+
+### Project Timeline / Gantt
+
+Structure-based project timeline showing scheduled activities, statuses, dependencies and task-level details.
+
+![Project timeline](../assets/gerstl-management/gerstl-management-timeline.jpg)
+
+### Activity List
+
+Operational activity overview with structure filters, planned and actual dates, status, sub-assignment and delay indicators.
+
+![Activity list](../assets/gerstl-management/gerstl-management-activity-list.jpg)
 
 ---
 
 ## Engineering Challenges
 
-The core challenge is modeling a construction process in a way that is reusable across projects while preserving project-specific tasks, links and schedule data.
+The core challenge was modeling a construction process in a way that is reusable across projects while preserving project-specific tasks, links and schedule data.
 
-This required careful separation between process templates, project structures, activities and task instances.
+This required careful separation between process templates, project structures, activities and task instances, while also supporting timeline visualization, planned-vs-actual comparisons and project-level statistics.
 
 ---
 
@@ -105,20 +168,8 @@ This required careful separation between process templates, project structures, 
 
 **Full-stack architecture and implementation.**
 
-I designed the data flows, implemented the Laravel API and business logic, built the frontend integration and developed the project timeline / process-management workflows.
+I designed the data flows, implemented the Laravel API and business logic, built the frontend integration and developed the project timeline, reusable process-model and project-monitoring workflows.
 
 ---
 
-## Screenshots
-
-Recommended public screenshots:
-
-1. project overview
-2. process model editor
-3. project structure
-4. activity / trade management
-5. timeline or Gantt screen
-
----
-
-> This portfolio case study describes the technical scope without exposing internal company data or private production source code.
+> Production source code and internal company data remain private. The screenshots shown here are portfolio-safe versions prepared to demonstrate the product architecture and functionality without exposing confidential information.
