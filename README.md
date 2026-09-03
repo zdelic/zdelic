@@ -8,6 +8,8 @@ I design, develop and maintain complete applications for real operational workfl
 
 My main stack is **Laravel / PHP + React / TypeScript**, with additional experience in **Python / FastAPI / Flask**, REST APIs, SQL databases, Linux deployment, Android integrations, NFC and biometric hardware workflows.
 
+**Available for freelance and project-based work:** business applications, API integrations, workflow systems, internal tools, existing-system modernization and full-stack development from concept to production.
+
 ---
 
 ## What I Bring to a Project
@@ -43,7 +45,11 @@ My main stack is **Laravel / PHP + React / TypeScript**, with additional experie
 
 **Workforce Access & Attendance Management System**
 
+**Status:** Production · Active Development · Internal Business System
+
 A complete workforce attendance and access-control platform for construction sites, supporting NFC cards and biometric fingerprint terminals.
+
+[![GERSTL Entry Dashboard](assets/gerstl-entry/dashboard.webp)](projects/gerstl-entry.md)
 
 **Highlights**
 - Laravel REST backend and React administration interface
@@ -57,7 +63,7 @@ A complete workforce attendance and access-control platform for construction sit
 
 **Stack:** Laravel · PHP · React · Vite · Tailwind CSS · SQLite · Kotlin / Android · C# / .NET · REST API
 
-[View case study →](projects/gerstl-entry.md)
+[View full case study →](projects/gerstl-entry.md)
 
 ---
 
@@ -65,7 +71,11 @@ A complete workforce attendance and access-control platform for construction sit
 
 **Construction Process Management & Project Timeline System**
 
+**Status:** Active Development · Internal Business System
+
 A full-stack construction process-management platform for structuring projects, reusable process models, trades, activities, tasks, progress tracking and interactive project timelines.
+
+[![Gerstl-Projekt App Timeline](assets/gerstl-management/gerstl-management-timeline.jpg)](projects/gerstl-management.md)
 
 **Highlights**
 - hierarchical project and building structure management
@@ -80,7 +90,7 @@ A full-stack construction process-management platform for structuring projects, 
 
 **Stack:** FastAPI · Python · SQLAlchemy · Pydantic · React · TypeScript · Tailwind CSS · Axios · SQLite · REST API
 
-[View case study →](projects/gerstl-management.md)
+[View full case study →](projects/gerstl-management.md)
 
 ---
 
@@ -88,7 +98,11 @@ A full-stack construction process-management platform for structuring projects, 
 
 **Renovation Calculation, Quotation & Planning Platform**
 
+**Status:** Production · In Use · Maintained
+
 A business application for creating structured renovation calculations and professional offers in minutes.
+
+[![Sanierung-Konfigurator Calculation](assets/sanierung-konfigurator/calculator.webp)](projects/sanierung-konfigurator.md)
 
 **Highlights**
 - calculation engine organized by construction trades
@@ -103,13 +117,15 @@ A business application for creating structured renovation calculations and profe
 
 **Stack:** Laravel · Sanctum · Spatie Permission · React · TypeScript · Vite · Tailwind CSS · MySQL / MariaDB · DomPDF
 
-[View case study →](projects/sanierung-konfigurator.md)
+[View full case study →](projects/sanierung-konfigurator.md)
 
 ---
 
 ## 💰 Construction Budget & Cost Controlling
 
 **Budget Planning & Cost Tracking Application**
+
+**Status:** Internal Business Application
 
 A business application for project budget planning, cost controlling and reconciliation of project expenses.
 
@@ -123,7 +139,7 @@ A business application for project budget planning, cost controlling and reconci
 
 **Stack:** Python · Flask · SQLAlchemy · SQLite · Jinja · PyMuPDF
 
-[View case study →](projects/budget-app.md)
+[View full case study →](projects/budget-app.md)
 
 ---
 
