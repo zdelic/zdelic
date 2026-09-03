@@ -11,7 +11,7 @@ My main stack is **Laravel / PHP + React / TypeScript**, with additional experie
 ## What I Build
 
 - Full-stack business applications
-- Laravel REST APIs and backend systems
+- Laravel and FastAPI REST backends
 - React / TypeScript admin dashboards
 - Role-based access and permission systems
 - Workflow and process-management applications
@@ -74,18 +74,20 @@ A business application for creating structured renovation calculations and profe
 
 **Project Timeline & Workflow Management System**
 
-A full-stack application for structuring construction projects, process models, activities, tasks and project timelines.
+A full-stack construction process-management platform for structuring projects, reusable process models, trades, activities, tasks, progress tracking and interactive project timelines.
 
 **Highlights**
-- project and structure management
-- reusable process models
-- trades and activity management
-- task dependencies and links
-- timeline / Gantt data
-- authenticated REST API
-- role-based access
+- hierarchical project and building structure management
+- reusable process models and construction workflows
+- centralized trades and activity management
+- automatic task generation and task dependencies
+- planned vs. actual progress tracking
+- interactive timeline / Gantt planning
+- project statistics, filters and CSV workflows
+- JWT-authenticated REST API and role-based access
+- evolved from an earlier Laravel backend to the current FastAPI / Python implementation
 
-**Stack:** Laravel · PHP · React · Vite · Tailwind CSS · Sanctum · REST API
+**Stack:** FastAPI · Python · SQLAlchemy · Pydantic · React · TypeScript · Tailwind CSS · Axios · SQLite · REST API
 
 [View case study →](projects/gerstl-management.md)
 
@@ -111,33 +113,13 @@ A business application for project budget planning, cost controlling and reconci
 
 ---
 
-## ⚡ FastAPI + React CRM
-
-**Modern API-First Project Management Application**
-
-A full-stack CRM-style application built with a Python API backend and a React / TypeScript frontend.
-
-**Highlights**
-- FastAPI REST backend
-- SQLAlchemy data layer
-- Pydantic validation
-- project / structure / task management
-- modern React frontend
-- API-first architecture
-
-**Stack:** FastAPI · Python · SQLAlchemy · Pydantic · React · TypeScript · Vite · Tailwind CSS · SQLite / PostgreSQL
-
-[View case study →](projects/fastapi-react.md)
-
----
-
 ## Technical Toolkit
 
 | Area | Technologies |
 |---|---|
 | Backend | Laravel, PHP, FastAPI, Flask, Python |
 | Frontend | React, TypeScript, JavaScript, Vite, Tailwind CSS |
-| APIs | REST API, Laravel Sanctum, JSON integrations |
+| APIs | REST API, Laravel Sanctum, JWT authentication, JSON integrations |
 | Databases | MySQL, MariaDB, SQLite, PostgreSQL |
 | Reporting | DomPDF, PDF generation, CSV export, PyMuPDF |
 | Mobile / Hardware | Android, Kotlin, NFC, biometric fingerprint devices |
@@ -167,4 +149,4 @@ These public case studies describe the architecture, technologies and functional
 
 ### Open to freelance and project-based collaboration
 
-I am especially interested in **Laravel / PHP**, **React**, **API integrations**, **business applications**, **workflow systems**, and **custom internal software**.
+I am especially interested in **Laravel / PHP**, **FastAPI / Python**, **React**, **API integrations**, **business applications**, **workflow systems**, and **custom internal software**.
