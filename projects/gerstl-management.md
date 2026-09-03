@@ -2,47 +2,53 @@
 
 ## Project Timeline & Workflow Management System
 
-A full-stack construction process-management application for organizing projects, reusable process models, trades, activities, tasks, dependencies and timeline data.
+A full-stack construction process-management application for organizing projects, reusable process models, trades, activities, tasks, dependencies, progress data and interactive construction timelines.
+
+The current implementation uses a **FastAPI / Python backend with a React / TypeScript frontend**. The system evolved from an earlier Laravel-based backend as the architecture and feature set matured.
 
 ---
 
 ## Business Problem
 
-Construction projects involve many dependent activities that need to be structured consistently across projects while still allowing project-specific planning and progress tracking.
+Construction projects involve many dependent activities that need to be structured consistently across projects while still allowing project-specific planning, progress tracking and schedule control.
 
-The application provides a reusable process model and project timeline structure instead of managing these workflows through disconnected spreadsheets or static schedules.
+The application replaces disconnected spreadsheets and static schedules with reusable process models, hierarchical project structures, automatically generated tasks and an operational project timeline.
 
 ---
 
 ## What I Built
 
-I implemented the full-stack application architecture, including:
+I implemented and evolved the full-stack application architecture, including:
 
-- Laravel backend
+- FastAPI / Python backend
 - authenticated REST API
-- React-based frontend
-- project and structure management
+- SQLAlchemy data layer
+- Pydantic-based API schemas and validation
+- React / TypeScript frontend
+- project and hierarchical structure management
 - reusable process models
 - trades and activity management
-- task creation and linking
-- project timeline / Gantt data
-- user authentication and role-based access
+- automatic task generation
+- task linking and scheduling workflows
+- interactive project timeline / Gantt views
 - planned-vs-actual progress tracking
 - project statistics and status monitoring
+- user authentication and role-based access
+- migration of the backend architecture from an earlier Laravel implementation to FastAPI
 
 ---
 
 ## Core Features
 
 ### Project Structure
-- project creation and retrieval
+- project creation and management
 - hierarchical building structure
 - project-specific process-model assignment
 - planned start-date handling
 - reusable structures across projects
 
 ### Process Models
-- reusable process templates
+- reusable construction process templates
 - activity assignment by trade
 - duration planning
 - sequential and parallel activities
@@ -52,65 +58,77 @@ I implemented the full-stack application architecture, including:
 - centralized trade management
 - color-coded trades
 - activity management
-- bulk activity saving
-- replace-all workflows
+- reusable activity definitions
+- assignment of activities to process models
 
 ### Tasks & Timeline
 - project-linked tasks
+- generated tasks based on structures and process models
 - task dependencies and links
 - structure-based timeline view
 - status visualization
 - planned and actual dates
 - delayed-task indicators
-- Gantt-compatible data endpoints
+- interactive schedule workflows
 
 ### Monitoring & Reporting
 - task statistics by trade
 - completion-status charts
 - planned-vs-actual progress curve
 - activity overview with filtering
-- CSV export
+- CSV export workflows
 
-### Authentication & Roles
-- Laravel Sanctum authentication
-- role-protected areas
-- admin and site-management access patterns
+### Authentication & API
+- JWT-based authentication
+- authenticated REST endpoints
+- role-based user access
+- FastAPI OpenAPI / Swagger documentation
 
 ---
 
 ## Architecture
 
 ```text
-React Frontend
-      │
-      │ REST / JSON
-      ▼
-Laravel API
-      │
-      ├── Projects
-      ├── Structures
-      ├── Process Models
-      ├── Trades / Activities
-      └── Tasks / Timeline
-      │
-      ▼
-Database
+React + TypeScript Frontend
+          │
+          │ REST / JSON
+          ▼
+      FastAPI API
+          │
+          ├── Pydantic Schemas
+          ├── Projects / Structures
+          ├── Process Models
+          ├── Trades / Activities
+          ├── Task Generation
+          └── Tasks / Timeline
+          │
+          ▼
+      SQLAlchemy ORM
+          │
+          ▼
+     SQLite / SQL DB
 ```
 
 ---
 
 ## Technology Stack
 
-- **Backend:** Laravel / PHP
-- **Frontend:** React, Vite, Tailwind CSS
-- **Authentication:** Laravel Sanctum
-- **API:** REST / JSON
-- **Planning:** timeline and Gantt-compatible task data
-- **Reporting:** charts, filters and CSV export
+- **Backend:** FastAPI / Python
+- **ORM:** SQLAlchemy
+- **Validation:** Pydantic
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **HTTP Client:** Axios
+- **Authentication:** JWT / bearer tokens
+- **Database:** SQLite in local development, SQLAlchemy-based architecture
+- **API:** REST / JSON, OpenAPI / Swagger
+- **Planning:** interactive timeline and Gantt-style project scheduling
+- **Reporting:** charts, filters and CSV workflows
 
 ---
 
 ## Screenshots
+
+The screenshots below demonstrate the product workflows and user interface developed for the system. The backend architecture later evolved from Laravel to the current FastAPI / Python implementation while preserving and extending the same core business workflows.
 
 ### Project Statistics
 
@@ -158,17 +176,17 @@ Operational activity overview with structure filters, planned and actual dates, 
 
 ## Engineering Challenges
 
-The core challenge was modeling a construction process in a way that is reusable across projects while preserving project-specific tasks, links and schedule data.
+The central challenge was modeling construction processes so they remain reusable across projects while still producing project-specific tasks, dependencies, schedule data and progress information.
 
-This required careful separation between process templates, project structures, activities and task instances, while also supporting timeline visualization, planned-vs-actual comparisons and project-level statistics.
+A second major engineering step was evolving the backend from the earlier Laravel implementation to a FastAPI / Python architecture while retaining the established business workflows and frontend concepts. This required rebuilding API endpoints, authentication, ORM models and data flows around FastAPI, SQLAlchemy and Pydantic.
 
 ---
 
 ## My Role
 
-**Full-stack architecture and implementation.**
+**Full-stack architecture, implementation and backend modernization.**
 
-I designed the data flows, implemented the Laravel API and business logic, built the frontend integration and developed the project timeline, reusable process-model and project-monitoring workflows.
+I designed the data flows and application model, implemented the project and process-management workflows, built the frontend integration and developed the timeline, reusable process-model and monitoring functionality. I also migrated the backend architecture from the earlier Laravel implementation to the current FastAPI / Python stack.
 
 ---
 
