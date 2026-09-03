@@ -2,21 +2,35 @@
 
 ### Full-Stack Developer · Business Applications · APIs · Workflow Systems
 
-I design and build complete business applications — from database architecture and backend APIs to modern frontend interfaces, deployment, integrations, and ongoing maintenance.
+**Full-stack developer building production business software from architecture to deployment.**
+
+I design, develop and maintain complete applications for real operational workflows — including database architecture, backend APIs, React interfaces, mobile and hardware integrations, deployment, debugging and ongoing maintenance.
 
 My main stack is **Laravel / PHP + React / TypeScript**, with additional experience in **Python / FastAPI / Flask**, REST APIs, SQL databases, Linux deployment, Android integrations, NFC and biometric hardware workflows.
 
 ---
 
+## What I Bring to a Project
+
+- end-to-end ownership — from requirements and architecture to production
+- backend APIs and business logic
+- React / TypeScript application interfaces
+- database design, migrations and data workflows
+- third-party, mobile and hardware integrations
+- Linux deployment, debugging and ongoing maintenance
+- practical software built around real business processes
+
+---
+
 ## What I Build
 
-- Full-stack business applications
+- full-stack business applications
 - Laravel and FastAPI REST backends
 - React / TypeScript admin dashboards
-- Role-based access and permission systems
-- Workflow and process-management applications
+- role-based access and permission systems
+- workflow and process-management applications
 - PDF / CSV reporting and document workflows
-- Construction and project-management software
+- construction and project-management software
 - Android terminal integrations
 - NFC and fingerprint attendance/access systems
 - Linux / Nginx application deployment and maintenance
@@ -47,29 +61,6 @@ A complete workforce attendance and access-control platform for construction sit
 
 ---
 
-## 🧮 Sanierung-Konfigurator
-
-**Renovation Calculation, Quotation & Planning Platform**
-
-A business application for creating structured renovation calculations and professional offers in minutes.
-
-**Highlights**
-- calculation engine organized by construction trades
-- centralized pricebook
-- PDF quotation generation
-- signed-document workflow
-- project and user management
-- granular roles and permissions
-- invitation system
-- audit log
-- construction schedule / planning functionality
-
-**Stack:** Laravel · Sanctum · Spatie Permission · React · TypeScript · Vite · Tailwind CSS · MySQL / MariaDB · DomPDF
-
-[View case study →](projects/sanierung-konfigurator.md)
-
----
-
 ## 📅 Gerstl-Projekt App
 
 **Construction Process Management & Project Timeline System**
@@ -90,6 +81,29 @@ A full-stack construction process-management platform for structuring projects, 
 **Stack:** FastAPI · Python · SQLAlchemy · Pydantic · React · TypeScript · Tailwind CSS · Axios · SQLite · REST API
 
 [View case study →](projects/gerstl-management.md)
+
+---
+
+## 🧮 Sanierung-Konfigurator
+
+**Renovation Calculation, Quotation & Planning Platform**
+
+A business application for creating structured renovation calculations and professional offers in minutes.
+
+**Highlights**
+- calculation engine organized by construction trades
+- centralized pricebook
+- PDF quotation generation
+- signed-document workflow
+- project and user management
+- granular roles and permissions
+- invitation system
+- audit log
+- construction schedule / planning functionality
+
+**Stack:** Laravel · Sanctum · Spatie Permission · React · TypeScript · Vite · Tailwind CSS · MySQL / MariaDB · DomPDF
+
+[View case study →](projects/sanierung-konfigurator.md)
 
 ---
 
