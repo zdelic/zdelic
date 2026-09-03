@@ -135,14 +135,43 @@ I planned the application structure, implemented the backend and REST API, built
 
 ## Screenshots
 
-Recommended screenshots for the public portfolio:
+The screens below use demo/anonymized data. Customer information, internal pricing and commercial details have been obscured where appropriate.
 
-1. dashboard / project overview
-2. renovation calculation screen
-3. pricebook
-4. generated offer / PDF preview
-5. construction schedule / Gantt view
-6. user / role management
+### Configuration Dashboard
+
+![Sanierung-Konfigurator Dashboard](../assets/sanierung-konfigurator/dashboard.webp)
+
+Overview of renovation configurations and generated offers, with search, project summaries and calculation totals.
+
+### Renovation Calculation
+
+![Sanierung-Konfigurator Calculation](../assets/sanierung-konfigurator/calculator.webp)
+
+Project setup with living area, base project costs, postal-code surcharge logic and a running calculation summary.
+
+### Trades / Gewerke
+
+![Sanierung-Konfigurator Trades](../assets/sanierung-konfigurator/trades.webp)
+
+Trade-based workflow covering demolition, drywall, screed, tiling, carpentry, flooring, painting, windows, electrical work, building services and specialist restoration work.
+
+### Central Pricebook
+
+![Sanierung-Konfigurator Pricebook](../assets/sanierung-konfigurator/pricebook.webp)
+
+Searchable centralized pricebook with trade and status filters, bulk price adjustments and individual item maintenance. Commercial price values are obscured in the public portfolio.
+
+### Generated Offer / PDF
+
+![Sanierung-Konfigurator Offer PDF](../assets/sanierung-konfigurator/offer-pdf.webp)
+
+Professional offer PDF generated from structured calculation data. Customer, company and commercial details are anonymized for the public portfolio.
+
+### Construction Schedule
+
+![Sanierung-Konfigurator Construction Schedule](../assets/sanierung-konfigurator/schedule.webp)
+
+Interactive trade-based construction schedule / Gantt view showing sequencing, durations and the overall renovation timeline.
 
 ---
 
